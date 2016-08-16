@@ -1,0 +1,209 @@
+.topbar {
+  background-color: #fff;
+  border-color: #01113C;
+}
+.topbar a.navbar-brand {
+  color: #000;
+  font-size: 20px;
+  padding: 15px;
+}
+.topbar .topbar-nav li a {
+  color: #000;
+  font-size: 20px;
+  padding: 15px;
+}
+.topbar .topbar-nav li a:hover, .topbar .topbar-nav li a:focus {
+  background-color: #fff;
+  color: #01174A;
+}
+
+section.section-wrapper {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 1px 2px #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+section.section-wrapper h2 {
+  font-size: 40px;
+  margin: 0 0 25px;
+  padding-top: 0;
+}
+section.section-wrapper h2.projects {
+  text-align: left;
+}
+section.section-wrapper.home-wrapper {
+  margin-top: 50px;
+  height: 646px;
+  background-image: url(http://4.bp.blogspot.com/-rk4CAD7SR_8/UOsDZK0bR7I/AAAAAAAAB9c/_FOXTG5Cjd4/s1600/hd-achtergrond-met-maan-boven-zee-snachts.jpg);
+}
+section.section-wrapper.about-wrapper {
+  background-image: url(http://orig09.deviantart.net/4827/f/2012/197/0/9/blue_world_by_topas2012-d57j0hu.jpg);
+}
+section.section-wrapper.portfolio-wrapper {
+  background-image: url(http://orig02.deviantart.net/315a/f/2012/303/5/a/brown_wood_by_dexterdevilarm-d5jfydi.jpg);
+}
+section.section-wrapper.contact-wrapper {
+  background-image: url(http://www.zingerbugimages.com/backgrounds/light_blue_parchment_paper_background_1800x1600.jpg);
+}
+
+#home {
+  padding-top: 150px;
+  height: 100%;
+  background-color: transparent;
+}
+#home h1.greetings {
+  font-size: 8em;
+}
+#home p {
+  font-size: 30px;
+}
+#home p a.btn {
+  text-shadow: none;
+}
+
+#about {
+  padding: 100px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#about .bio p {
+  font-size: 15px;
+}
+#about .info {
+  text-align: left;
+}
+
+#about .profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 2px 1px 3px;
+  margin-bottom: 30px;
+  background-image: url(https://scontent-mrs1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10411419_827120017338250_995576135304996716_n.jpg?oh=191be9bb2f00536f1fc1611218109ed2&oe=566FDDD0);
+  background-size: 300px;
+  background-repeat: no-repeat;
+}
+#about .skill {
+  margin-bottom: 30px;
+}
+#about .skill-img {
+  height: 150px;
+  width: 150px;
+}
+ .btn-primary{
+background-color: #fff;
+color: #000;
+ }
+ .btn-primary:hover{
+background-color: #000;
+ }
+ .profile-pic img{
+  border-radius: 50%;
+ }
+#about .skill-img img {
+  width: 100%;
+  height: 100%;
+}
+#about .skill-name {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#portfolio {
+  padding: 100px 0 50px;
+}
+#portfolio .project {
+  padding: 10px;
+  width: 90%;
+  max-width: 400px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 9px #000;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+#portfolio .project .project-img {
+  position: relative;
+}
+#portfolio .project .project-img:hover > .overlay {
+  display: block;
+}
+#portfolio .project .project-img img {
+  width: 100%;
+}
+#portfolio .project .project-img a.overlay {
+  display: none;
+  height: 100%;
+  width: 100%;
+  padding: 40%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  color: #fff;
+  text-shadow: none;
+  font-size: 55px;
+}
+#portfolio .project .project-info {
+  padding-top: 10px;
+  color: #666;
+  text-shadow: none;
+}
+#portfolio .project .project-name {
+  font-size: 18px;
+  padding-bottom: 5px;
+  color: #333;
+  padding: 15px;
+}
+#portfolio .project .project-summary {
+  text-align: left;
+}
+
+#contact {
+  padding: 50px 0;
+  font-size: 22px;
+  font-style: italic;
+}
+#contact a {
+  color: #4E4E56;
+  text-shadow: none;
+}
+#contact a:hover {
+  text-shadow: 2px 1px 2px #000;
+  text-decoration: none;
+}
+#contact a.twitter:hover {
+  color: #00aced;
+}
+#contact a.github:hover {
+  color: #111;
+}
+#contact a.linkedin:hover {
+  color: #007bb5;
+}
+#contact h2.contact-me {
+  text-align: left;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+#contact .email i.fa {
+  color: #dd4b39;
+  text-shadow: none;
+}
+
+footer {
+  background-color: #01174A;
+}
+footer .contents * {
+  display: inline-block;
+  padding: 15px;
+  color: #fff;
+}
+footer .contents a {
+  color: #fff;
+}
+footer .contents a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #01174A;
+}
